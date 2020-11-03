@@ -7,6 +7,7 @@ int main(void) {
 cout<<"Enter the function of calculator which you want to use: "<<"\n"<<"0 - exit"<<"\n"<<"1 - addition"<<"\n"<<"2 - subtraction"<<"\n"<<"3 - multyplication"
 <<"\n"<<"4 - division"<<"\n";
 cin>>func;
+    if(func>=0 && func<=4){
 switch (func){
     case 0:
     cout<<"You chose exit"<<"\n"<<"if you want to START AGAIN - 1"<<"\n"<<"if you want just to FINISH - 0"<<"\n";
@@ -51,7 +52,8 @@ switch (func){
     div = d1/d2;
     cout<<div;
     break;
-}
+}}
+    else{cout<<"Can't find the function...";}
 
 
 
