@@ -17,7 +17,7 @@ switch (func){
     }
     else {break;}
     case 1:
-    int n1,n2,sum;
+    double n1,n2,sum;
     cout<<"Enter the first num: ";
     cin>>n1;
     cout<<"Enter the secund num: ";
@@ -26,7 +26,7 @@ switch (func){
     cout<<sum;
     break;
     case 2:
-    int s1,s2, sub;
+    double s1,s2, sub;
     cout<<"Enter the first num: ";
     cin>>s1;
     cout<<"Enter the secund num: ";
@@ -35,7 +35,7 @@ switch (func){
     cout<<sub;
     break;
     case 3:
-    int m1,m2, mul;
+    double m1,m2, mul;
     cout<<"Enter the first num: ";
     cin>>m1;
     cout<<"Enter the secund num: ";
@@ -44,7 +44,7 @@ switch (func){
     cout<<mul;
     break;
     case 4:
-    int d1,d2,div;
+    double d1,d2,div;
     cout<<"Enter the first num: ";
     cin>>d1;
     cout<<"Enter th secund num: ";
@@ -58,7 +58,6 @@ switch (func){
 
 
 }
-
 
 
 
